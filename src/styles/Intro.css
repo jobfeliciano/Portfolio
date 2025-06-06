@@ -79,7 +79,7 @@
   }
 
   .intro-title {
-    max-width: 50vh;
+    max-width: 40vh;
     font-size: 36px;
   }
   .intro-name {
@@ -92,12 +92,13 @@
 
   .intro-subtitle {
     margin: 0;
+    font-weight: bold;
     font-size: 24px;
   }
 
   .intro-desc {
     font-size: 18px;
-    max-width: 50vh;
+    max-width: 40vh;
     padding-bottom: 40px;
   }
 
