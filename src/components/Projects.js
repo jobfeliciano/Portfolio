@@ -56,7 +56,7 @@ class Projects extends React.Component {
           "Une réinterprétation du célèbre jeu de plateforme Icy Tower, conçue pour perfectionner les mécaniques de saut et de physique.",
         techStack: "C# (UNITY)",
         link: "https://github.com/jobfeliciano/Icy-Tower",
-        image: "/assets/icytower.png"
+        image: "/assets/Icytower.png"
       }
     };
     const projects = { 
