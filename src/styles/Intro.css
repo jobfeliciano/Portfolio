@@ -69,7 +69,6 @@
   background-color: var(--lightest-navy);
 }
 
-/* Responsive adjustments */
 @media only screen and (max-width: 600px) {
   #intro-wrapper {
     min-height: unset;
@@ -80,17 +79,25 @@
   }
 
   .intro-title {
+    max-width: 50vh;
+    font-size: 36px;
+  }
+  .intro-name {
     font-size: 46px;
+  }
+
+  .Typist {
+    font-size: 40px;
   }
 
   .intro-subtitle {
     margin: 0;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .intro-desc {
     font-size: 18px;
-    max-width: unset;
+    max-width: 50vh;
     padding-bottom: 40px;
   }
 
