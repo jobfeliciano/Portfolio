@@ -1,0 +1,83 @@
+.joblist-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: var(--navy);
+  color: var(--lightest-slate);
+  font-family: "NTR", sans-serif;
+  border-radius: 8px;
+  min-height: 300px;
+}
+
+.MuiTabs-vertical {
+  border-right: 1px solid var(--slate);
+}
+
+.MuiTab-root {
+  color: var(--slate);
+  font-weight: bold;
+  text-transform: none;
+}
+
+.Mui-selected {
+  color: var(--green-bright) !important;
+}
+
+.MuiTabs-indicator {
+  background-color: var(--green-bright) !important;
+}
+
+.joblist-job-title {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: "NTR", sans-serif;
+  color: var(--lightest-slate);
+}
+
+.joblist-job-company {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "NTR", sans-serif;
+  color: var(--green-bright);
+}
+
+.joblist-duration {
+  font-size: 14px;
+  color: var(--slate);
+  margin-bottom: 10px;
+}
+
+.job-description {
+  list-style: disc;
+  font-family: "NTR", sans-serif;
+  margin-left: 20px;
+  color: var(--lightest-slate);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  .joblist-container {
+    flex-direction: column;
+  }
+
+  .MuiTabs-vertical {
+    border-right: none;
+    border-bottom: 1px solid var(--slate);
+  }
+
+  .MuiTab-root {
+    font-size: 14px;
+  }
+
+  .joblist-job-title,
+  .joblist-job-company {
+    font-size: 18px;
+  }
+
+  .job-description {
+    font-size: 14px;
+  }
+} 

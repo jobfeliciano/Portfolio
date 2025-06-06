@@ -1,0 +1,102 @@
+#intro-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#intro-wrapper canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#intro-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 200px;
+  min-height: 100vh;
+}
+
+
+.intro-title {
+  font-family: "NTR", sans-serif;
+  font-size: 86px;
+  color: var(--lightest-slate);
+}
+
+.intro-subtitle {
+  margin-top: -36px;
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  text-align: center;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.intro-desc {
+  color: var(--slate);
+  font-family: "NTR", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+
+.intro-contact {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "NTR", sans-serif;
+  align-self: center;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: 1px solid var(--green-bright);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--green-bright);
+  transition: background-color 0.3s ease;
+}
+
+.intro-contact:hover {
+  background-color: var(--lightest-navy);
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  #intro-wrapper {
+    min-height: unset;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  .intro-title {
+    font-family: "NTR", sans-serif;
+    font-size: 46px;
+  }
+
+  .intro-subtitle {
+    margin: 0;
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+  }
+
+  .intro-desc {
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    max-width: unset;
+    padding-bottom: 40px;
+  }
+
+  .intro-contact {
+    font-size: 16px;
+  }
+}
