@@ -29,7 +29,7 @@
 
 .intro-title {
   font-family: "NTR", sans-serif;
-  font-size: 86px;
+  font-size: 80px;
   color: var(--lightest-slate);
 }
 
@@ -73,24 +73,22 @@
 @media only screen and (max-width: 600px) {
   #intro-wrapper {
     min-height: unset;
-    padding: 0;
+    padding-left: unset;
+    padding-top: unset;
     margin: 0;
     align-items: center;
   }
 
   .intro-title {
-    font-family: "NTR", sans-serif;
     font-size: 46px;
   }
 
   .intro-subtitle {
     margin: 0;
-    font-family: "NTR", sans-serif;
     font-size: 28px;
   }
 
   .intro-desc {
-    font-family: "NTR", sans-serif;
     font-size: 18px;
     max-width: unset;
     padding-bottom: 40px;
